@@ -1,0 +1,147 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #A8BED5;
+  overflow: hidden;
+}
+
+.containner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+
+.containner >.fig-apu {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: .4s;
+  z-index: 2;
+}
+
+.containner >.fig-apu:hover {
+  padding-bottom: 1rem;
+}
+
+.fig-squishee {
+  position: absolute;
+  right: 28%;
+  width: 8%;
+  z-index: 2;
+  top: 44.8%;
+  cursor: pointer;
+  transition: .4s;
+  display: block;
+}
+
+.fig-squishee:hover #squishee-img {
+  transform: translateY(-5px);
+  transition: transform .4s;
+}
+
+.fig-squishee #squishee-img {
+  max-width: 80%;
+  height: 100%;
+}
+
+.containner >.fig-table {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+
+.containner figure.fig-table {
+  width: 100%;
+}
+
+.containner figure.fig-table #table-img {
+  max-width: 100%;
+}
+
+.fig-mart {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+
+.fig-krusty {
+  position: absolute;
+  left: 15%;
+  width: 8%;
+  z-index: 2;
+  top: 45.2%;
+  cursor: pointer;
+  transition: .4s;
+  display: block;
+}
+
+.fig-krusty:hover #krusty-img{
+  transform: translateY(-5px);
+  transition: transform .4s;
+}
+
+.fig-krusty #krusty-img {
+  max-width: 130%;
+  height: 150%;
+}
+
+.fig-duffy {
+  position: absolute;
+  right: 18%;
+  width: 8%;
+  z-index: 2;
+  top: 49.8%;
+  cursor: pointer;
+  transition: .4s;
+  display: block;
+}
+
+.fig-duffy:hover #duffy-img{
+  transform: translateY(-5px);
+  transition: transform .4s;
+}
+
+.fig-duffy #duffy-img {
+  max-width: 80%;
+  height: 100%;
+}
+
+.h1 {
+  color: rgb(0, 255, 72);
+}
+
+.bi-cart-fill{
+  color: white;
+  background-color: #A8BED5;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  cursor: pointer;
+}
+
+.bi-cart-fill{
+  display: flex;
+  justify-content: center;
+}
+
+.cart{
+  border: none;
+}
