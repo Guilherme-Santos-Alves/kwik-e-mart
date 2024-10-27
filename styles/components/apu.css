@@ -1,0 +1,13 @@
+.apu{
+    background-color: transparent;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    bottom: 214px;
+    z-index: 1;
+}
+
+.apu button{
+    background-color: transparent;
+}

@@ -1,0 +1,18 @@
+.products{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    bottom: 222px;
+    position: absolute;
+    z-index: 2;
+}
+
+.product img{
+    height: 120px;
+    width: 100px;
+    background-color: transparent;
+}
+
+.product{
+    background-color: transparent;
+}

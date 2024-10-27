@@ -1,0 +1,12 @@
+.mart-header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    padding: 20px;
+}
+
+.mart-header > .fig-mart img{
+    height: 90px;
+    width: 400px;
+}
