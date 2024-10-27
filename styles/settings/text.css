@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'SimpsonsFont';
+    src: url('./fonts/Simpsonfont\ DEMO.otf') format('truetype');
+}
+
+:root{
+    --font-family-base: 'SimpsonsFont', sans-serif;
+}

@@ -1,15 +1,7 @@
 
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body {
-  background-color: #A8BED5;
-  overflow: hidden;
-}
+
 
 .containner {
   display: flex;
@@ -56,13 +48,7 @@ body {
 }
 
 .containner >.fig-table {
-  position: absolute;
-  left: 0;
-  bottom: 0;
   width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-  z-index: 1;
 }
 
 .containner figure.fig-table {
@@ -71,6 +57,10 @@ body {
 
 .containner figure.fig-table #table-img {
   max-width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .fig-mart {

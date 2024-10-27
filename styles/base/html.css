@@ -1,0 +1,4 @@
+html{
+    background-color: var(--km-background-color);
+    font-family: var(--font-family-base);
+}
